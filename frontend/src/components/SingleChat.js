@@ -16,7 +16,7 @@ import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
 
-const ENDPOINT = "https://end-chat-app.herokuapp.com/"; //"http://localhost:5000"; -> before deployment
+const ENDPOINT = "https://lets-connect-webapp.herokuapp.com/"; //"http://localhost:5000"; -> before deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
